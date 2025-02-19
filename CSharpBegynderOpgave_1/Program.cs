@@ -1,6 +1,9 @@
 ﻿//Lav et "visitkort" Hvor du skriver dit navn, alder, Interesser, Yndlingsdyr og så videre.
 //Udsmyk visitkortet med farver og evt ASCII art.
 
+Console.BackgroundColor = ConsoleColor.White;
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("hello world");
 
 
 
@@ -12,8 +15,12 @@
 
 
 
-
-
+Console.WriteLine("==============================");
+Console.WriteLine("|   blå.jeg kan lige at kode |");
+Console.WriteLine("==============================");
+Console.WriteLine("|    mathias laursen. 12år   |");
+Console.WriteLine("==============================");
+Console.ReadKey();
 // Eksempler på kommandoer
 
 // Dette er en kommentar og læses ikke at programmet.
@@ -33,10 +40,10 @@
 //Console.ForegroundColor = ConsoleColor.Cyan;
 //
 //// Skriver personlig information
-//Console.WriteLine("\nNavn: John Doe");
-//Console.WriteLine("Alder: 10 år");
-//Console.WriteLine("Hobbyer: Spille spil, programmere, fodbold");
-//Console.WriteLine("Yndlingsfarve: Grøn");
+//Console.WriteLine("\nNavn: Mathias Laursen");
+//Console.WriteLine("Alder: 12 år");
+//Console.WriteLine("Hobbyer: Spille spil, programmere");
+//Console.WriteLine("Yndlingsfarve: blå");
 //
 //// Tilføjer lidt mellemrum og prompt for at afslutte programmet
 //Console.ResetColor();
